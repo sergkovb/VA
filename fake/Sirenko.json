@@ -1,0 +1,462 @@
+{
+  "items": [
+      {
+        "card": {
+          "type": "list_card",
+          "paddings": {
+            "top": "8x",
+            "bottom": "4x",
+            "left": "4x"
+          },
+          "cells": [
+            {
+              "type": "text_cell_view",
+              "paddings": {
+                "right": "8x",
+                "top": "4x",
+                "left": "8x",
+                "bottom": "8x"
+              },
+              "content": {
+                "text": "Прогрессивная шкала НДФЛ",
+                "typeface": "headline3",
+                "text_color": "default",
+                "max_lines": 3
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "В России уже действует прогрессивная шкала НДФЛ, когда ставка налога увеличивается с ростом дохода. С 2025 года вместо двух ставок будет пять.\n\nНовый НДФЛ будут удерживать из зарплаты, премии, доходов от сдачи жилья в аренду, выигрышей. Остальные доходы будут облагаться налогом по другим правилам",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0
+                  }
+                }
+              },
+              "vertical_gravity": "center"
+            }
+          ]
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "paddings": {
+            "top": "8x",
+            "bottom": "4x",
+            "left": "4x"
+          },
+          "cells": [
+            {
+              "type": "text_cell_view",
+              "paddings": {
+                "top": "4x",
+                "left": "8x",
+                "bottom": "8x"
+              },
+              "content": {
+                "text": "Как считают НДФЛ сейчас",
+                "typeface": "headline3",
+                "text_color": "default",
+                "max_lines": 3
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "Сейчас действует двухступенчатая прогрессивная шкала ставок",
+                    "typeface": "footnote1",
+                    "max_lines": 3,
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d3"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "13%",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "Для доходов до 5 млн ₽ в год включительно",
+                    "typeface": "footnote1",
+                    "max_lines": 3,
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d3"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "15%",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "Для доходов от 5 млн ₽ в год",
+                    "typeface": "footnote1",
+                    "max_lines": 3,
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "vertical_gravity": "center"
+            }
+          ]
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "paddings": {
+            "top": "8x",
+            "bottom": "4x",
+            "left": "4x"
+          },
+          "cells": [
+            {
+              "type": "text_cell_view",
+              "paddings": {
+                "right": "8x",
+                "top": "4x",
+                "left": "8x",
+                "bottom": "8x"
+              },
+              "content": {
+                "text": "Как изменится НДФЛ с 2025 года",
+                "typeface": "headline3",
+                "text_color": "default",
+                "max_lines": 3
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "Начнёт действовать пятиступенчатая прогрессивная шкала ставок",
+                    "typeface": "footnote1",
+                    "max_lines": 3,
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d3"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "13%",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "для доходов до 2,4 млн ₽ в год включительно",
+                    "typeface": "footnote1",
+                    "max_lines": 3,
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d3"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "15%",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "на сумму доходов от 2,4 млн до 5 млн ₽ в год включительно",
+                    "typeface": "footnote1",
+                    "max_lines": 3,
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d3"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "18%",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "на сумму доходов от 5 млн до 20 млн ₽ в год включительно",
+                    "typeface": "footnote1",
+                    "max_lines": 3,
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d3"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "20%",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "на сумму доходов от 20 млн до 50 млн ₽ в год включительно",
+                    "typeface": "footnote1",
+                    "max_lines": 3,
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d3"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "22%",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "на сумму доходов от 50 млн ₽ в год",
+                    "typeface": "footnote1",
+                    "max_lines": 3,
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "vertical_gravity": "center"
+            }
+          ]
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "paddings": {
+            "top": "8x",
+            "bottom": "4x",
+            "left": "4x"
+          },
+          "cells": [
+            {
+              "type": "text_cell_view",
+              "paddings": {
+                "right": "8x",
+                "top": "4x",
+                "left": "8x",
+                "bottom": "8x"
+              },
+              "content": {
+                "text": "Пример расчёта НДФЛ",
+                "typeface": "headline3",
+                "text_color": "default",
+                "max_lines": 3
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Если в 2025 году годовой доход составит 10 000 000 ₽, то НДФЛ рассчитают по 3 ставкам:\n\n13% x 2 400 000 ₽ = 312 000 ₽;\n\n15% x (5 000 000 ₽ - 2 400 000 ₽) = 390 000 ₽;\n\n18% x (10 000 000 ₽ - 5 000 000 ₽) = 900 000 ₽\n\nВсего: 312 000 ₽ + 390 000 ₽ + 900 000 ₽ = 1 602 000 ₽",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0
+                  }
+                }
+              },
+              "vertical_gravity": "center"
+            }
+          ]
+        }
+      }
+    ]
+}
