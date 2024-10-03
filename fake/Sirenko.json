@@ -213,7 +213,7 @@
                 "icon_vertical_gravity": "top",
                 "texts": {
                   "title": {
-                    "text": "",
+                    "text": "123",
                     "typeface": "body1",
                     "text_color": "default",
                     "max_lines": 3
