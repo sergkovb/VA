@@ -85,7 +85,7 @@
                 "icon_vertical_gravity": "top",
                 "texts": {
                   "title": {
-                    "text": "some text",
+                    "text": " ",
                     "typeface": "body1",
                     "text_color": "default",
                     "max_lines": 3
@@ -213,7 +213,7 @@
                 "icon_vertical_gravity": "top",
                 "texts": {
                   "title": {
-                    "text": "123",
+                    "text": " ",
                     "typeface": "body1",
                     "text_color": "default",
                     "max_lines": 3
