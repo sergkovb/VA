@@ -85,7 +85,7 @@
                 "icon_vertical_gravity": "top",
                 "texts": {
                   "title": {
-                    "text": "",
+                    "text": "some text",
                     "typeface": "body1",
                     "text_color": "default",
                     "max_lines": 3
