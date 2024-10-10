@@ -1,0 +1,111 @@
+{
+    "items": [
+      {
+        "bubble": {
+          "text": "С 1 января 2025 года начнёт действовать прогрессивная шкала НДФЛ с пятью ставками — от 13% до 22%",
+          "markdown": true
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "paddings": {
+            "top": "8x",
+            "bottom": "4x",
+            "left": "4x"
+          },
+          "cells": [
+            {
+              "type": "text_cell_view",
+              "paddings": {
+                "right": "8x",
+                "top": "4x",
+                "left": "8x",
+                "bottom": "8x"
+              },
+              "content": {
+                "text": "Калькулятор НДФЛ",
+                "typeface": "headline3",
+                "text_color": "default",
+                "max_lines": 3
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "url",
+                    "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/Icon_calculator.png",
+                    "placeholder": "tax_consultant_calculate"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand",
+                  "rounded_corners": "circle"
+                },
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Калькулятор НДФЛ",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "Расчитаю вам налог и расскажу про новый закон",
+                    "typeface": "footnote1",
+                    "max_lines": 3,
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view",
+                "margins": {
+                  "right": "5x"
+                }
+              },
+              "actions": [
+                {
+                  "type": "server_action",
+                  "message_name": "RUN_APP",
+                  "server_action": {
+                    "action_id": "run_app",
+                    "app_info": {
+                      "systemName": "fin_advisor"
+                    },
+                    "parameters": {
+                      "intent": "pfm_my_taxes",
+                      "subintent": "tax_calculate"
+                    }
+                  }
+                },
+                {
+                  "text": "Калькулятор НДФЛ",
+                  "type": "text",
+                  "should_send_to_backend": false
+                }
+              ],
+              "vertical_gravity": "center"
+            }
+          ]
+        }
+      }
+    ]
+  }
