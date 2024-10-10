@@ -107,5 +107,98 @@
           ]
         }
       }
-    ]
-}
+    ],
+    "finished": true,
+    "suggestions": {
+      "buttons": [
+        {
+          "title": "Ещё о налогах и вычетах",
+          "actions": [
+            {
+              "type": "server_action",
+              "message_name": "RUN_APP",
+              "server_action": {
+                "action_id": "run_app",
+                "app_info": {
+                  "systemName": "fin_advisor"
+                },
+                "parameters": {
+                  "intent": "pfm_my_taxes",
+                  "subintent": "tax_services"
+                }
+              }
+            },
+            {
+              "text": "Ещё о налогах и вычетах",
+              "type": "text",
+              "should_send_to_backend": false
+            }
+          ]
+        },
+        {
+          "title": "Вопросы о налогах",
+          "actions": [
+            {
+              "type": "server_action",
+              "message_name": "RUN_APP",
+              "server_action": {
+                "action_id": "run_app",
+                "app_info": {
+                  "systemName": "fin_advisor"
+                },
+                "parameters": {
+                  "intent": "pfm_my_taxes",
+                  "subintent": "how_calculate_ndfl"
+                }
+              }
+            },
+            {
+              "text": "Вопросы о налогах",
+              "type": "text",
+              "should_send_to_backend": false
+            }
+          ]
+        }
+      ]
+    },
+    "ir_hints": [
+      {
+        "text": "Ещё о налогах и вычетах",
+        "intent": ""
+      },
+      {
+        "text": "Вопросы о налогах",
+        "intent": ""
+      }
+    ],
+    "intent": "pfm_my_taxes",
+    "error_status": {
+      "component": 416,
+      "code": "001",
+      "description": {
+        "intent": "pfm_my_taxes",
+        "subscenario_name": "tax_consultant",
+        "bottom_sheet": false
+      }
+    },
+    "pronounceText": "С 1 января 2025 года начнёт действовать прогрессивная шкала НДФЛ с пятью ставками — от 13% до 22%. Могу рассказать об изменениях и помогу рассчитать налог и зарплату по новым правилам. Ссылки уже на экране.",
+    "auto_listening": false,
+    "debug_info": {
+      "intent": null,
+      "debug_info_key": "aa2f84d9-2497-4408-a4ea-8a38310ebbb3"
+    },
+    "historyData": {
+      "events": [
+        {
+          "scenarioName": "pfm_my_taxes",
+          "scenarioVersion": "D-01.044.00-26",
+          "result": "success",
+          "eventType": "node_passing",
+          "eventContent": {
+            "subscenarioName": "tax_consultant"
+          },
+          "no": 1
+        }
+      ]
+    }
+  }
