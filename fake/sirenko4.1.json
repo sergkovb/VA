@@ -44,7 +44,6 @@
                   "address": {
                     "type": "url",
                     "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/Icon_calculator.png",
-                    "placeholder": "tax_consultant_calculate"
                   },
                   "size": {
                     "width": "medium",
