@@ -1,0 +1,204 @@
+{
+    "items": [
+      {
+        "bubble": {
+          "text": "Выберите, куда ушли деньги. Или обратитесь к оператору ниже — он быстро поможет в чате",
+          "markdown": true
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "paddings": {
+            "top": "8x",
+            "bottom": "4x",
+            "left": "4x"
+          },
+          "cells": [
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "На онлайн-покупки или подписку",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "Wildberries, Ozon, Иви, Яндекс Плюс и другие сервисы",
+                    "typeface": "footnote1",
+                    "max_lines": 3,
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view",
+                "margins": {
+                  "right": "5x"
+                }
+              },
+              "actions": [
+                {
+                  "type": "server_action",
+                  "message_name": "RUN_APP",
+                  "server_action": {
+                    "action_id": "run_app",
+                    "app_info": {
+                      "systemName": "Run_operator"
+                    },
+                    "parameters": {
+                      "intent": "A0689.Run_operator",
+                      "systemName": "fin_advisor",
+                      "from_intent": "pfm_operations_history",
+                      "pronounceText": "Уточнить детали платежа можно в сервисе, который списал деньги. Если нужна помощь оператора, он ответит в чате. Я передал ему суть нашего разговора, и вам не придётся повторять.",
+                      "text": "Уточнить детали платежа можно в сервисе, который списал деньги. Если нужна помощь оператора, он ответит в чате. Я передал ему суть нашего разговора, и вам не придётся повторять.",
+                      "time_to_open_chat": 15
+                    }
+                  }
+                }
+              ],
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d3"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "На банковские услуги",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "Комиссии по карте, переводы, уведомления, СберПрайм",
+                    "typeface": "footnote1",
+                    "max_lines": 3,
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view",
+                "margins": {
+                  "right": "5x"
+                }
+              },
+              "actions": [
+                {
+                  "type": "server_action",
+                  "message_name": "RUN_APP",
+                  "server_action": {
+                    "action_id": "run_app",
+                    "app_info": {
+                      "systemName": "fin_advisor"
+                    },
+                    "parameters": {
+                      "intent": "why_withdraw",
+                      "text_key": "why_withdraw_get_paid_services"
+                    }
+                  }
+                }
+              ],
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d3"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "url",
+                    "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/withdraw_operator.png",
+                    "placeholder": "info"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand",
+                  "rounded_corners": "circle"
+                },
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Вызвать оператора",
+                    "typeface": "body1",
+                    "text_color": "brand",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view",
+                "margins": {
+                  "right": "5x"
+                }
+              },
+              "actions": [
+                {
+                  "type": "server_action",
+                  "message_name": "RUN_APP",
+                  "server_action": {
+                    "action_id": "run_app",
+                    "app_info": {
+                      "systemName": "Run_operator"
+                    },
+                    "parameters": {
+                      "intent": "A0689.Run_operator",
+                      "systemName": "fin_advisor",
+                      "from_intent": "pfm_operations_history",
+                      "pronounceText": "Мы непременно всё выясним! И в этом нам поможет оператор, он ответит в чате. Я передал ему суть нашего разговора, и вам не придётся повторять.",
+                      "text": "Мы непременно всё выясним! И в этом нам поможет оператор, он ответит в чате. Я передал ему суть нашего разговора, и вам не придётся повторять",
+                      "time_to_open_chat": 15
+                    }
+                  }
+                }
+              ],
+              "vertical_gravity": "center"
+            }
+          ]
+        }
+      }
+    ]
+}
