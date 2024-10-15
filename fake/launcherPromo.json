@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+  "type": "list_card",
+  "log_id": "new_launcher_promo",
+  "cells": [
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "7x",
+        "right": "0x",
+        "top": "6x",
+        "bottom": "6x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Чат с банком скоро переедет",
+            "typeface": "headline3",
+            "text_color": "default"
+          },
+          "subtitle": {
+            "text": "Где искать поддержку",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "max_lines": 2
+          }
+        },
+        "icon_vertical_gravity": "center"
+      }
+    },
+    {
+      "type": "button_cell_view",
+      "content": {
+        "text": "Узнать больше",
+        "typeface": "button2",
+        "style": "default",
+        "type": "accept",
+        "actions": [
+          {
+            "type": "deep_link",
+            "deep_link": "sbolonline://offers/story?campaignId=39737&creativeId=583014"
+          }
+        ],
+        "margins": {
+          "top": "6x",
+          "bottom": "6x"
+        },
+        "plasma_button": {
+          "text": "Подробнее",
+          "actions": [
+            {
+              "type": "deep_link",
+              "deep_link": "sbolonline://offers/story?campaignId=39737&creativeId=583014"
+            }
+          ],
+          "style": "checked"
+        }
+      },
+      "paddings": {
+        "left": "6x",
+        "right": "6x",
+        "top": "6x",
+        "bottom": "6x"
+      }
+    }
+  ],
+  "background_image": {
+    "url": "https://va-res.online.sberbank.ru/VA/images/launcher/backgrounds/gradient_for_offers.png"
+  },
+  "paddings": {
+    "left": "2x",
+    "right": "2x",
+    "top": "2x",
+    "bottom": "2x"
+  }
+}
+    ]
+}
