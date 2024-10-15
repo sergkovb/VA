@@ -1,6 +1,7 @@
 {
   "items": [
     {
+      "card":  {
   "type": "list_card",
   "log_id": "new_launcher_promo",
   "cells": [
@@ -76,5 +77,6 @@
     "bottom": "2x"
   }
 }
+    }
     ]
 }
