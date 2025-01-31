@@ -1,0 +1,103 @@
+{
+  "activate_app_info": true,
+  "additional_apps_payload": [],
+  "app_info": {
+    "affiliationType": "INTERNAL",
+    "ageLimit": 18,
+    "allowFastRunApp": false,
+    "apkInfo": {},
+    "appearance": {
+      "header": {
+        "title": "Комната здоровья"
+      }
+    },
+    "applicationId": "037e7f8d-f5df-4cd1-bc8e-526e5f6d8bd9",
+    "appversionId": "bf3184b4-5680-4794-9df5-dcfd61ca277d",
+    "availableOrientations": [],
+    "frontendEndpoint": "https://5beb6ebb-796b-4c7b-8b66-d8df246cbff0.static.developer.sberdevices.ru/",
+    "frontendStateId": "0f74a435-b034-45e4-8602-28e866742337_037e7f8d-f5df-4cd1-bc8e-526e5f6d8bd9_bf3184b4-5680-4794-9df5-dcfd61ca277d",
+    "frontendType": "WEB_APP",
+    "projectId": "0f74a435-b034-45e4-8602-28e866742337",
+    "securityAccess": {
+      "canvasCameraAllowed": 1,
+    },
+    "systemName": ""
+  },
+  "asr_hints": {},
+  "assistant_items": [],
+  "auto_listening": true,
+  "character": {
+    "id": "sber"
+  },
+  "debug_info": {},
+  "feature_launcher": {
+    "assigned_testing_groups": [
+      "experiment_1_group_B"
+    ],
+    "nlp_platform": {
+      "assigned_testing_groups": [
+        "experiment_1_group_B"
+      ],
+      "device_selector": true,
+      "greenfield_segment_list": [
+        "ALL_PEOPLES",
+        "sbol_gte_12.0.0",
+        "grocery_mobile_04_2021",
+        "sbol_version_gte_12.0.0",
+        "SBOL"
+      ],
+      "param_1": "experiment_1_group_B",
+      "SimpleConnection": true,
+      "sub_alt": true,
+      "uuid_alt": true
+    },
+    "public": {
+      "greenfield_segment_list": [
+        "ALL_PEOPLES",
+        "sbol_gte_12.0.0",
+        "grocery_mobile_04_2021",
+        "sbol_version_gte_12.0.0",
+        "SBOL"
+      ]
+    }
+  },
+  "finished": false,
+  "intent": "run_app",
+  "items": [
+    {
+      "bubble": {
+        "expand_policy": "auto_expand",
+        "markdown": false,
+        "text": "Начнем"
+      }
+    }
+  ],
+  "projectName": "апп 28 апреля",
+  "pronounceText": "начнем",
+  "sid": "",
+  "smartBio": {},
+  "suggestions": {
+    "buttons": [
+      {
+        "action": {
+          "should_send_to_backend": true,
+          "text": "Запиши купить молоко",
+          "type": "text"
+        },
+        "title": "Запиши купить молоко"
+      },
+      {
+        "action": {
+          "should_send_to_backend": true,
+          "text": "Добавь запись помыть машину",
+          "type": "text"
+        },
+        "title": "Добавь запись помыть машину"
+      }
+    ]
+  },
+  "userSettings": {
+    "initials": "РЗ"
+  },
+  "voice": "She_HQ"
+}
