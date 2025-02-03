@@ -25,7 +25,9 @@
     "nativeHeader": false,
     "projectId": "971c4475-6da1-48b9-9da7-1c7e422af330",
     "projectName": "Комната здоровья",
-    "securityAccess": {},
+    "securityAccess": {
+            "canvasCameraAllowed": 1
+    },
     "systemName": "health_room"
   },
   "last": true,
