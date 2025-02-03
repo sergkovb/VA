@@ -37,5 +37,29 @@
   },
   "userSettings": {
     "initials": "ДЖ"
+  },
+   "items" : [
+       {
+  "command" : {
+    "smart_app_data" : {
+      "payload" : {
+        "analytics" : {
+          "app_name" : "Комната здоровья",
+          "app_version" : "78f353b2-0eaa-466c-a569-ee87811578ca",
+          "device_brand" : "SBOL",
+          "device_id" : "BDBEBB4C-2A72-459A-87F3-D9E88B76C98C",
+          "device_model" : "iPhone12,1",
+          "sid" : "1230f004e2de9318e1674227e55cb7e670d90a4fcf61c8a75e887759e87b2066",
+          "surface" : "SBOL",
+          "user_id" : "05009117-1F86-451A-888A-0342DB1F7729"
+        },
+        "deviceType" : "SBOL",
+        "platformType" : "IOS"
+      },
+      "type" : "configs"
+    },
+    "type" : "smart_app_data"
   }
+}
+     ]
 }
