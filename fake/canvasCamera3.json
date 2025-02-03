@@ -32,6 +32,9 @@
   "led_display": {},
   "projectName": "Комната здоровья",
   "sid": "1230f004e2de9318e1674227e55cb7e670d90a4fcf61c8a75e887759e87b2066",
+  "securityAccess": {
+      "canvasCameraAllowed": 1
+  },
   "userSettings": {
     "initials": "ДЖ"
   }
