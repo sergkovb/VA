@@ -19,7 +19,7 @@
     "applicationId": "da2306c5-47ac-4bd8-86cb-fccef3c39548",
     "appversionId": "78f353b2-0eaa-466c-a569-ee87811578ca",
     "availableOrientations": [],
-    "frontendEndpoint": "https://95e76c8e-266c-4800-9d26-9f4f7971ce4d.static.developer.sberdevices.ru",
+    "frontendEndpoint": "https://2444a229-91ed-45bf-8fa4-81cb755cf71c.static.developer.sberdevices.ru/",
     "frontendStateId": "971c4475-6da1-48b9-9da7-1c7e422af330_da2306c5-47ac-4bd8-86cb-fccef3c39548_78f353b2-0eaa-466c-a569-ee87811578ca",
     "frontendType": "WEB_APP",
     "nativeHeader": false,
