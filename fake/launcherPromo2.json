@@ -53,7 +53,7 @@
           "actions": [
             {
               "type": "deep_link",
-              "deep_link": "sbolonline://offers/story?campaignId=39737&creativeId=583014"
+              "deep_link": "sbolonline://deposits/new-deposit"
             }
           ],
           "style": "checked"
