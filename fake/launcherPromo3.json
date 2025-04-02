@@ -53,7 +53,7 @@
           "actions": [
             {
               "type": "deep_link",
-              "deep_link": "sbolonline://deposits/new-deposit"
+              "deep_link": "app-online-ios://sbolonline/deposits/new-deposit"
             }
           ],
           "style": "checked"
