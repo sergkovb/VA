@@ -17,7 +17,7 @@
                   },
                   "address": {
                     "type": "url",
-                    "url": "https://va-res.online.sberbank.ru/VA/images/launcher/icons/ic_36_microphone_pb.png"
+                    "url": "https://va-res.online.sberbank.ru/VA/images/launcher/icons/lavashar_pb.png"
                   },
                   "margins": {
                     "left": "4x",
@@ -28,8 +28,17 @@
                   "title": {
                     "text": "Задать вопрос голосом",
                     "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 1
+                    "text_color": "brand",
+                    "max_lines": 2
+                  },
+                  "subtitle": {
+                    "text": "Салют поможет решить любую задачу",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    },
+                    "max_lines": 2
                   }
                 }
               },
@@ -45,7 +54,7 @@
           "actions": [
             {
               "type": "deep_link",
-              "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/assistant/launcher?systemName=A02.01680.Where_history_references&deeplink_guid=deeplink&navigation_info=history_chat"
+              "deep_link": "android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/assistant/launcher?systemName=autolisteningscenario&deeplink_guid=deeplink"
             }
           ],
           "background_image": {
