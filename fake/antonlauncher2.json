@@ -25,10 +25,6 @@
                   "type": "url",
                   "url": "https://va-res.online.sberbank.ru/VA/images/launcher/icons/lavashar_pb.png"
                 },
-                "margins": {
-                  "left": "4x",
-                  "right": "5x"
-                },
                 "size": {
                   "height": "large",
                   "width": "large"
