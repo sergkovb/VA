@@ -34,11 +34,8 @@
                   "typeface": "headline3"
                 }
               },
-              "type": "simple_left_view"
-            },
-            "type": "left_right_cell_view"
-          },
-          "actions": [
+              "type": "simple_left_view",
+                        "actions": [
           {
             "message_name": "RUN_APP",
             "server_action": {
@@ -50,6 +47,9 @@
             "type": "server_action"
           }
         ]
+            },
+            "type": "left_right_cell_view"
+          }
         ],
         "log_id": "ask_question_voice",
         "paddings": {
