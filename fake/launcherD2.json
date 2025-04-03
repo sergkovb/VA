@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "widget_single_card",
+        "item": {
+          "type": "discovery_card",
+          "cells": [
+        {
+          "actions": [
+            {
+              "message_name": "RUN_APP",
+              "server_action": {
+                "action_id": "run_app",
+                "app_info": {
+                  "systemName": "autolisteningscenario"
+                }
+              },
+              "type": "server_action"
+            }
+          ],
+          "left": {
+            "icon": {
+              "address": {
+                "type": "url",
+                "url": "https://va-res.online.sberbank.ru/VA/images/launcher/icons/lavashar_pb.png"
+              },
+              "margins": {
+                "left": "4x",
+                "right": "5x"
+              },
+              "size": {
+                "height": "large",
+                "width": "large"
+              }
+            },
+            "icon_vertical_gravity": "center",
+            "texts": {
+              "subtitle": {
+                "margins": {
+                  "top": "1x"
+                },
+                "text": "Салют поможет решить любую задачу",
+                "text_color": "inverse",
+                "typeface": "footnote1"
+              },
+              "title": {
+                "text": "Задать вопрос голосом",
+                "text_color": "inverse",
+                "typeface": "headline3"
+              }
+            },
+            "type": "simple_left_view"
+          },
+          "type": "left_right_cell_view"
+        }
+      ],
+          "height": {
+            "type": "fixed",
+            "value": 68
+          },
+          "actions": [
+            {
+              "type": "deep_link",
+              "deep_link": "android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/assistant/launcher?systemName=autolisteningscenario&deeplink_guid=deeplink"
+            }
+          ],
+          "background_image": {
+            "url": "https://va-res.online.sberbank.ru/VA/images/launcher/backgrounds/background_microphone_pb.png"
+          },
+          "paddings": {
+            "left": "4x",
+            "right": "6x",
+            "top": "8x",
+            "bottom": "8x"
+          }
+        }
+      }
+    }
+  ]
+}
