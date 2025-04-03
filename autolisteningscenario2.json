@@ -13,9 +13,6 @@
           "type": "server_action"
         }
       ],
-      "background_image": {
-        "url": "https://va-res.online.sberbank.ru/VA/images/launcher/backgrounds/background_microphone_pb.png"
-      },
       "cells": [
         {
           "left": {
@@ -64,9 +61,6 @@
       "type": "list_card"
     },
     {
-      "background_image": {
-        "url": "https://va-res.online.sberbank.ru/VA/images/launcher/backgrounds/background_microphone_pb.png"
-      },
       "cells": [
         {
           "actions": [
