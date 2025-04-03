@@ -5,8 +5,7 @@
         "type": "widget_single_card",
         "item": {
           "type": "discovery_card",
-          "cells": [
-        {
+          "cells": {
           "actions": [
             {
               "message_name": "RUN_APP",
@@ -53,8 +52,7 @@
             "type": "simple_left_view"
           },
           "type": "left_right_cell_view"
-        }
-      ],
+        },
           "height": {
             "type": "fixed",
             "value": 68
