@@ -1,0 +1,62 @@
+{
+  "items": [
+{
+  "type": "widget_single_card",
+               "item": {
+                 "type": "discovery_card",
+                 "cells": {
+                   "middle_cell": {
+                     "type": "left_right_cell_view",
+                     "left": {
+                       "type": "simple_left_view",
+                       "icon": {
+                         "size": {
+                           "width": "medium",
+                           "height": "medium"
+                         },
+                         "address": {
+                           "type": "url",
+                           "url": "https://va-res.online.sberbank.ru/VA/images/launcher/icons/ic_36_microphone_pb.png"
+                         },
+                         "margins": {
+                           "left": "4x",
+                           "right": "5x"
+                         }
+                       },
+                       "texts": {
+                         "title": {
+                           "text": "Задать вопрос голосом",
+                           "typeface": "body1",
+                           "text_color": "default",
+                           "max_lines": 1
+                         }
+                       }
+                     },
+                     "right": {
+                       "type": "disclosure_right_view"
+                     }
+                   }
+                 },
+                 "height": {
+                   "type": "fixed",
+                   "value": 68
+                 },
+                 "actions": [
+                   {
+                     "type": "deep_link",
+                     "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/assistant/launcher?systemName=A02.01680.Where_history_references&deeplink_guid=deeplink&navigation_info=history_chat"
+                   }
+                 ],
+               "background_image": {
+                 "url": "https://va-res.online.sberbank.ru/VA/images/launcher/backgrounds/background_microphone_pb.png"
+               },
+                 "paddings": {
+                   "left": "4x",
+                   "right": "6x",
+                   "top": "8x",
+                   "bottom": "8x"
+                 }
+               }
+             }
+]
+}
