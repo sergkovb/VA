@@ -26,8 +26,8 @@
                   "url": "https://va-res.online.sberbank.ru/VA/images/launcher/icons/ic_36_assistant.png"
                 },
                 "size": {
-                  "height": "large",
-                  "width": "large"
+                  "height": "medium",
+                  "width": "medium"
                 }
               },
               "icon_vertical_gravity": "center",
@@ -54,7 +54,7 @@
         "log_id": "ask_question_voice",
         "paddings": {
           "bottom": "16x",
-          "left": "0x",
+          "left": "8x",
           "right": "8x",
           "top": "8x"
         },
