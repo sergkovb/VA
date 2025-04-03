@@ -54,7 +54,6 @@
         "log_id": "ask_question_voice",
         "paddings": {
           "bottom": "16x",
-          "left": "8x",
           "right": "8x",
           "top": "8x"
         },
