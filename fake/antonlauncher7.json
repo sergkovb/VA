@@ -2,18 +2,6 @@
   "items": [
     {
       "card": {
-        "actions": [
-          {
-            "message_name": "RUN_APP",
-            "server_action": {
-              "action_id": "run_app",
-              "app_info": {
-                "systemName": "autolisteningscenario"
-              }
-            },
-            "type": "server_action"
-          }
-        ],
         "background_image": {
           "url": "https://va-res.online.sberbank.ru/VA/images/launcher/backgrounds/background_microphone_pb.png"
         },
@@ -49,7 +37,19 @@
               "type": "simple_left_view"
             },
             "type": "left_right_cell_view"
+          },
+          "actions": [
+          {
+            "message_name": "RUN_APP",
+            "server_action": {
+              "action_id": "run_app",
+              "app_info": {
+                "systemName": "autolisteningscenario"
+              }
+            },
+            "type": "server_action"
           }
+        ],
         ],
         "log_id": "ask_question_voice",
         "paddings": {
