@@ -1,0 +1,73 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "widget_single_card",
+        "item": {
+          "type": "discovery_card",
+          "cells": {
+            "middle_cell": {
+              "type": "left_right_cell_view",
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "address": {
+                    "type": "url",
+                    "url": "https://va-res.online.sberbank.ru/VA/images/launcher/icons/lavashar_pb.png"
+                  },
+                  "margins": {
+                    "left": "4x",
+                    "right": "5x"
+                  }
+                },
+                "texts": {
+                  "title": {
+                    "text": "Задать вопрос голосом",
+                    "typeface": "body1",
+                    "text_color": "brand",
+                    "max_lines": 2
+                  },
+                  "subtitle": {
+                    "text": "Салют поможет решить любую задачу",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    },
+                    "max_lines": 2
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view"
+              }
+            }
+          },
+          "height": {
+            "type": "fixed",
+            "value": 68
+          },
+          "actions": [
+            {
+              "type": "deep_link",
+              "deep_link": "android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/assistant/launcher?systemName=autolisteningscenario&deeplink_guid=deeplink"
+            }
+          ],
+          "background_image": {
+            "url": "https://va-res.online.sberbank.ru/VA/images/launcher/backgrounds/background_microphone_pb.png"
+          },
+          "paddings": {
+            "left": "4x",
+            "right": "6x",
+            "top": "8x",
+            "bottom": "8x"
+          }
+        }
+      }
+    }
+  ]
+}
