@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+                "background_image" : {
+                  "url" : "https:\/\/va-res.online.sberbank.ru\/VA\/images\/launcher\/backgrounds\/background_microphone_pb.png"
+                },
+                "cells" : [
+                  {
+                    "actions" : [
+                  {
+                    "message_name" : "RUN_APP",
+                    "server_action" : {
+                      "action_id" : "run_app",
+                      "app_info" : {
+                        "systemName" : "autolisteningscenario"
+                      }
+                    },
+                    "type" : "server_action"
+                  }
+                ],
+                    "left" : {
+                      "icon" : {
+                        "address" : {
+                          "type" : "url",
+                          "url" : "https:\/\/va-res.online.sberbank.ru\/VA\/images\/launcher\/icons\/lavashar_pb.png"
+                        },
+                        "margins" : {
+                          "left" : "4x",
+                          "right" : "5x"
+                        },
+                        "size" : {
+                          "height" : "large",
+                          "width" : "large"
+                        }
+                      },
+                      "icon_vertical_gravity" : "center",
+                      "texts" : {
+                        "subtitle" : {
+                          "margins" : {
+                            "top" : "1x"
+                          },
+                          "text" : "Салют поможет решить любую задачу",
+                          "text_color" : "inverse",
+                          "typeface" : "footnote1"
+                        },
+                        "title" : {
+                          "text" : "Задать вопрос голосом",
+                          "text_color" : "inverse",
+                          "typeface" : "headline3"
+                        }
+                      },
+                      "type" : "simple_left_view"
+                    },
+                    "type" : "left_right_cell_view"
+                  }
+                ],
+                "log_id" : "ask_question_voice",
+                "paddings" : {
+                  "bottom" : "16x",
+                  "left" : "8x",
+                  "right" : "8x",
+                  "top" : "8x"
+                },
+                "type" : "list_card"
+              }
+    ]
+}
