@@ -1,0 +1,107 @@
+{
+  "activate_app_info": true,
+  "additional_apps_payload": [],
+  "answerId": 1,
+  "app_info": {
+    "affiliationType": "EXTERNAL",
+    "ageLimit": 6,
+    "allowFastRunApp": false,
+    "apkInfo": {},
+    "appearance": {
+      "header": {
+        "icon": {
+          "hash": "1e4bad89f7ad7e6514fb7c0d7e789062",
+          "type": "url",
+          "url": "https://cdn.sberdevices.ru/static/services/target/d9704b3f-ce96-418b-ba16-4c5413bf05fb/9f351785-5dce-4792-bc21-c21ad165ff39.png"
+        },
+        "title": "Дружные Блоки"
+      }
+    },
+    "applicationId": "4e0eed63-80f6-4d2f-900d-f48655f3b3c1",
+    "appversionId": "9a5575b5-1b5d-4e06-bee9-c12d328a2f2a",
+    "availableOrientations": [],
+    "canvasType": "full_screen",
+    "frontendEndpoint": "https://0aa31432-30b3-4531-86f1-a42e40704e1f.static.developer.sberdevices.ru",
+    "frontendStateId": "d9704b3f-ce96-418b-ba16-4c5413bf05fb_4e0eed63-80f6-4d2f-900d-f48655f3b3c1_9a5575b5-1b5d-4e06-bee9-c12d328a2f2a",
+    "frontendType": "WEB_APP",
+    "nativeHeader": false,
+    "projectId": "d9704b3f-ce96-418b-ba16-4c5413bf05fb",
+    "projectName": "Дружные Блоки",
+    "securityAccess": {},
+    "systemName": "druzhnyye_bloki"
+  },
+  "asr_hints": {},
+  "assistant_items": [],
+  "auto_listening": false,
+  "character": {
+    "id": "sber"
+  },
+  "debug_info": {},
+  "feature_launcher": {},
+  "intent": "run_app",
+  "items": [
+    {
+      "command": {
+        "smart_app_data": {
+          "payload": {
+            "app_info": {
+              "affiliationType": "EXTERNAL",
+              "ageLimit": 6,
+              "apkInfo": {},
+              "applicationId": "4e0eed63-80f6-4d2f-900d-f48655f3b3c1",
+              "appversionId": "9a5575b5-1b5d-4e06-bee9-c12d328a2f2a",
+              "frontendEndpoint": "https://0aa31432-30b3-4531-86f1-a42e40704e1f.static.developer.sberdevices.ru",
+              "frontendType": "WEB_APP",
+              "projectId": "d9704b3f-ce96-418b-ba16-4c5413bf05fb",
+              "projectName": "Дружные Блоки",
+              "systemName": "druzhnyye_bloki"
+            },
+            "device": {
+              "additionalInfo": {
+                "clientSessionId": "caebfc25-1fd1-4b9a-8135-4e4f7ddb85a6",
+                "host_app_id": "ru.mount.edge",
+                "host_params": {},
+                "sdk_version": "25.3.2904",
+                "uiFamily": "Mobile"
+              },
+              "capabilities": {
+                "screen": {
+                  "available": true,
+                  "height": 2622,
+                  "scale_factor": 3,
+                  "width": 1206
+                }
+              },
+              "deviceId": "CC4AE531-10F9-4D0B-9B18-481EA395C52A",
+              "deviceManufacturer": "Apple",
+              "deviceModel": "iOS Simulator",
+              "features": {
+                "appTypes": [
+                  "DIALOG",
+                  "WEB_APP",
+                  "CHAT_APP",
+                  "EMBEDDED_APP"
+                ],
+                "clientFlags": {}
+              },
+              "platformType": "IOS",
+              "platformVersion": "18.0",
+              "surface": "SBOL",
+              "surfaceVersion": "16.7.0"
+            },
+            "projectName": "Дружные Блоки",
+            "sub": "c36cfNGF9wMLhuQ/3WbA7qYWCoXYDUO2kr0CH72tOKzHpWoSqhYvq3uvhi3SHkuQOGOLfNIEYYnFSgFBmGF6dlAHcr4IrombeYpr14xvkHCEcQ4O15JgK2CYXQopmTLBnbi35vHYQqJYfl0u7X2/TgC5UVhq4V/OFBq5GYbtavo="
+          },
+          "type": "sub"
+        },
+        "type": "smart_app_data"
+      }
+    }
+  ],
+  "last": true,
+  "projectName": "Дружные Блоки",
+  "userSettings": {
+    "initials": "СК"
+  },
+  "voice": "She_HQ"
+}
