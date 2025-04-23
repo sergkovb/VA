@@ -1,0 +1,191 @@
+{
+  "items": [
+    {
+      "card": {
+        "event_to_actions": {
+          "next": {
+            "actions": [
+              {
+                "type": "text",
+                "text": "Согласиться и подтвердить"
+              }
+            ]
+          }
+        },
+        "payload": {
+          "success": true,
+          "body": {
+            "result": "SUCCESS",
+            "pid": "b747471b-2041-11f0-974f-8dbb078d5235",
+            "flow": "confirmClientIb",
+            "state": "confirmButtonState",
+            "output": {
+              "references": {
+                "documentsForConfirmation": {
+                  "properties": {},
+                  "items": [
+                    {
+                      "properties": {},
+                      "title": "htmlInJson",
+                      "value": "/persDataAgreement/pdp-agreement/v1/CapacityCalculationAgreement.json"
+                    }
+                  ]
+                },
+                "edb8bbfdebf36d4905918c9fa50b48ab69": {
+                  "properties": {},
+                  "items": [
+                    {
+                      "title": "fraud",
+                      "value": "/bh-confirmation/v3/api/fraud?uuid=486caec2-4a94-4648-bf7a-89c3e72109b6&documentId=edb8bbfdebf36d4905918c9fa50b48ab69",
+                      "properties": {}
+                    },
+                    {
+                      "title": "document",
+                      "value": "/bh-confirmation/v3/api/documents?uuid=486caec2-4a94-4648-bf7a-89c3e72109b6&documentId=edb8bbfdebf36d4905918c9fa50b48ab69",
+                      "properties": {}
+                    }
+                  ]
+                }
+              },
+              "screens": [
+                {
+                  "properties": {
+                    "eventForAnalytic": "shortSummary_B"
+                  },
+                  "title": "Подтверждение",
+                  "description": "",
+                  "footer": [
+                    {
+                      "type": "ConfirmationVASummaryPdfDocuments",
+                      "properties": {
+                        "titleWithLink": "Я соглашаюсь с условиями и подписываю <a>Заявление-анкета на расчет кредитного потенциала (часть 1)</a>",
+                        "operationName": "Подтверждение заявки на расчет кредитного потенциала сведений и условий ПАО Сбербанк",
+                        "channelName": "MOB_BANK",
+                        "secondStateTitle": "Документы по операции"
+                      },
+                      "title": "Ознакомление с <a>документами</a>",
+                      "description": "Подтверждая, вы соглашаетесь с документами",
+                      "fields": [
+                        {
+                          "id": "agreement",
+                          "value": "",
+                          "type": "text",
+                          "title": "Я соглашаюсь с условиями и подписываю <a>Заявление-анкета на расчет кредитного потенциала (часть 1)</a>"
+                        },
+                        {
+                          "id": "edb8bbfdebf36d4905918c9fa50b48ab69",
+                          "title": "Заявление-анкета на расчет кредитного потенциала (часть 1)",
+                          "type": "text",
+                          "value": "",
+                          "referenceId": "edb8bbfdebf36d4905918c9fa50b48ab69",
+                          "readonly": true,
+                          "validators": []
+                        }
+                      ],
+                      "events": [
+                        {
+                          "cmd": "EVENT",
+                          "name": "next",
+                          "type": "next",
+                          "title": "Согласиться и подтвердить"
+                        }
+                      ]
+                    }
+                  ],
+                  "widgets": [
+                    {
+                      "type": "CoreFieldset",
+                      "properties": {
+                        "collapsed": true,
+                        "style": "info"
+                      },
+                      "fields": [
+                        {
+                          "id": "fio",
+                          "type": "text",
+                          "value": "ШАРОМ ШТИФТЕВИЧ ПОКАТЕНГ",
+                          "title": "ФИО",
+                          "readonly": true,
+                          "style": "noIcon"
+                        },
+                        {
+                          "id": "serialAndNumberPassport",
+                          "type": "text",
+                          "value": "6508 880938",
+                          "title": "Серия и номер паспорта",
+                          "readonly": true,
+                          "style": "noIcon"
+                        },
+                        {
+                          "id": "mobilePhone",
+                          "type": "text",
+                          "value": "+7 905 978‑07‑49",
+                          "title": "Телефон",
+                          "readonly": true,
+                          "style": "noIcon"
+                        },
+                        {
+                          "id": "adressRegistration",
+                          "type": "text",
+                          "value": "обл СВЕРДЛОВСКАЯ, г ЕКАТЕРИНБУРГ, ул ТКАЧЕЙ, д. 25, к. 1, 25",
+                          "title": "Адрес постоянной регистрации",
+                          "readonly": true,
+                          "style": "noIcon"
+                        },
+                        {
+                          "id": "actualAdress",
+                          "type": "text",
+                          "value": "г МОСКВА, г МОСКВА, ул 1812 ГОДА, д. 10, к. 1, 85",
+                          "title": "Адрес фактического проживания",
+                          "readonly": true,
+                          "style": "noIcon"
+                        },
+                        {
+                          "id": "officialIncome",
+                          "type": "text",
+                          "value": "345 685 ₽",
+                          "title": "Среднемесячный доход",
+                          "description": "",
+                          "readonly": true,
+                          "style": "noIcon"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "history": [
+              {
+                "id": "b876c594-2041-11f0-9737-6d65c82537c3",
+                "flow": "confirmClientIb",
+                "state": "confirmButtonState",
+                "title": "",
+                "status": "ACTIVE",
+                "flowId": 3
+              },
+              {
+                "id": "b875db32-2041-11f0-9737-d910b04f30f9",
+                "flow": "confirmClientIb",
+                "state": "rollback",
+                "title": "Переход",
+                "value": "",
+                "status": "ACTIVE",
+                "flowId": 3
+              },
+              {
+                "id": "b76ad4b0-2041-11f0-974f-87a65718f54e",
+                "flow": "mLendingCapacity_v2",
+                "state": "initShortQuestionary",
+                "title": "initShortQuestionary",
+                "status": "ACTIVE",
+                "flowId": 1
+              }
+            ]
+          }
+        },
+        "type": "workflow"
+      }
+    }
+  ]
+}
