@@ -33,9 +33,8 @@
                                 "title": "Не нужно",
                                 "actions": [
                                     {
-                                        "type": "text",
-                                        "text": "какой-то текст",
-                                        "should_send_to_backend": false
+                                      "type": "transfer_to_operator_action",
+                                      "action": "close_widget"
                                     }
                                 ]
                             },
