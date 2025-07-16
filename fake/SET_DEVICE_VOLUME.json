@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "bubble": {
+        "text": "Громкость устройства - 30%"
+      },
+      "command": {
+          "type": "system",
+          "system": {
+            "command": "SET_DEVICE_VOLUME",
+            "level": 30 // тип int
+          }
+        }
+    }
+  ]
+}
