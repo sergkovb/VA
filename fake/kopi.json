@@ -1,0 +1,87 @@
+{
+  "items" : [
+      {
+        "card" : {
+          "active_chat_button" : {
+            "actions" : [
+              {
+                "message_name" : "RUN_APP",
+                "server_action" : {
+                  "action_id" : "run_app",
+                  "app_info" : {
+                    "systemName" : "fin_advisor"
+                  },
+                  "parameters" : {
+                    "intent" : "pfm_how_to_save_money",
+                    "is_old_request" : true,
+                    "subintent" : "pfm_how_to_save_money_end",
+                    "text_key" : "finish_script"
+                  }
+                },
+                "type" : "server_action"
+              }
+            ],
+            "title" : "Перейти в чат"
+          },
+          "cancel_chat_button" : {
+            "actions" : [
+              {
+                "message_name" : "RUN_APP",
+                "server_action" : {
+                  "action_id" : "run_app",
+                  "app_info" : {
+                    "systemName" : "fin_advisor"
+                  },
+                  "parameters" : {
+                    "intent" : "pfm_how_to_save_money",
+                    "is_old_request" : true,
+                    "subintent" : "pfm_how_to_save_money_end",
+                    "text_key" : "finish_script"
+                  }
+                },
+                "type" : "server_action"
+              }
+            ],
+            "title" : "Отмена"
+          },
+          "header" : "Ответ ассистента",
+          "history_chat_button" : {
+            "actions" : [
+              {
+                "deep_link" : "https:\/\/sber.ru",
+                "type" : "deep_link"
+              }
+            ],
+            "title" : "Посмотреть историю"
+          },
+          "open_chat_button" : {
+            "actions" : [
+              {
+                "message_name" : "RUN_APP",
+                "server_action" : {
+                  "action_id" : "run_app",
+                  "app_info" : {
+                    "systemName" : "fin_advisor"
+                  },
+                  "parameters" : {
+                    "intent" : "pfm_how_to_save_money",
+                    "is_old_request" : true,
+                    "subintent" : "pfm_how_to_save_money"
+                  }
+                },
+                "type" : "server_action"
+              }
+            ],
+            "title" : "Проверить ответ"
+          },
+          "time_to_close_session" : 7,
+          "time_to_open_chat" : 6,
+          "title" : "Ответ ассистента",
+          "title_close_session" : "Чат завершен",
+          "title_with_timer" : "Формулируем персональный ответ",
+          "title_without_timer" : "Проверить ответ",
+          "type" : "transfer_to_operator"
+        }
+      }
+    ]
+}
